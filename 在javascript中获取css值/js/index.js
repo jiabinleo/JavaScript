@@ -19,3 +19,8 @@ window.onload=function(){
     console.log(pseudoElementStyle.content)
     console.log(pseudoElementStyle.color)
 }
+// 小结
+// 在JavaScript中获取CSS的值
+// 1.style 属性(property)。
+// 2.getComputedStyle。
+// style属性仅检索内联CSS值，而getComputedStyle样式检索计算的CSS值
