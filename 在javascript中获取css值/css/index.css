@@ -1,3 +1,7 @@
 .element{
     background-color:orange;
 }
+.element::before{
+    content:'before pseudo element';
+    color: green;
+}

@@ -13,4 +13,9 @@ window.onload=function(){
 
     const backgroundColor = style.backgroundColor;
     console.log(backgroundColor)
+
+
+    const pseudoElementStyle = getComputedStyle(element,'::before');
+    console.log(pseudoElementStyle.content)
+    console.log(pseudoElementStyle.color)
 }
